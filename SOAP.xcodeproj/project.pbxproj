@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2229CBE31E654516007E0DE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2229CBE21E654516007E0DE2 /* main.m */; };
+		2229CBE61E654516007E0DE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2229CBE51E654516007E0DE2 /* AppDelegate.m */; };
+		2229CBE91E654516007E0DE2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2229CBE81E654516007E0DE2 /* ViewController.m */; };
+		2229CBEC1E654516007E0DE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2229CBEA1E654516007E0DE2 /* Main.storyboard */; };
+		2229CBEE1E654516007E0DE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2229CBED1E654516007E0DE2 /* Assets.xcassets */; };
+		2229CBF11E654516007E0DE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2229CBEF1E654516007E0DE2 /* LaunchScreen.storyboard */; };
+		2229CBFC1E654516007E0DE2 /* SOAPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2229CBFB1E654516007E0DE2 /* SOAPTests.m */; };
+		2229CC071E654516007E0DE2 /* SOAPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2229CC061E654516007E0DE2 /* SOAPUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2229CBF81E654516007E0DE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2229CBD61E654515007E0DE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2229CBDD1E654515007E0DE2;
+			remoteInfo = SOAP;
+		};
+		2229CC031E654516007E0DE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2229CBD61E654515007E0DE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2229CBDD1E654515007E0DE2;
+			remoteInfo = SOAP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2229CBDE1E654516007E0DE2 /* SOAP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOAP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2229CBE21E654516007E0DE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2229CBE41E654516007E0DE2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2229CBE51E654516007E0DE2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2229CBE71E654516007E0DE2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2229CBE81E654516007E0DE2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2229CBEB1E654516007E0DE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2229CBED1E654516007E0DE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2229CBF01E654516007E0DE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2229CBF21E654516007E0DE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2229CBF71E654516007E0DE2 /* SOAPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SOAPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2229CBFB1E654516007E0DE2 /* SOAPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SOAPTests.m; sourceTree = "<group>"; };
+		2229CBFD1E654516007E0DE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2229CC021E654516007E0DE2 /* SOAPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SOAPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2229CC061E654516007E0DE2 /* SOAPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SOAPUITests.m; sourceTree = "<group>"; };
+		2229CC081E654516007E0DE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2229CBDB1E654515007E0DE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2229CBF41E654516007E0DE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2229CBFF1E654516007E0DE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2229CBD51E654515007E0DE2 = {
+			isa = PBXGroup;
+			children = (
+				2229CBE01E654516007E0DE2 /* SOAP */,
+				2229CBFA1E654516007E0DE2 /* SOAPTests */,
+				2229CC051E654516007E0DE2 /* SOAPUITests */,
+				2229CBDF1E654516007E0DE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2229CBDF1E654516007E0DE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2229CBDE1E654516007E0DE2 /* SOAP.app */,
+				2229CBF71E654516007E0DE2 /* SOAPTests.xctest */,
+				2229CC021E654516007E0DE2 /* SOAPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2229CBE01E654516007E0DE2 /* SOAP */ = {
+			isa = PBXGroup;
+			children = (
+				2229CBE41E654516007E0DE2 /* AppDelegate.h */,
+				2229CBE51E654516007E0DE2 /* AppDelegate.m */,
+				2229CBE71E654516007E0DE2 /* ViewController.h */,
+				2229CBE81E654516007E0DE2 /* ViewController.m */,
+				2229CBEA1E654516007E0DE2 /* Main.storyboard */,
+				2229CBED1E654516007E0DE2 /* Assets.xcassets */,
+				2229CBEF1E654516007E0DE2 /* LaunchScreen.storyboard */,
+				2229CBF21E654516007E0DE2 /* Info.plist */,
+				2229CBE11E654516007E0DE2 /* Supporting Files */,
+			);
+			path = SOAP;
+			sourceTree = "<group>";
+		};
+		2229CBE11E654516007E0DE2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2229CBE21E654516007E0DE2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2229CBFA1E654516007E0DE2 /* SOAPTests */ = {
+			isa = PBXGroup;
+			children = (
+				2229CBFB1E654516007E0DE2 /* SOAPTests.m */,
+				2229CBFD1E654516007E0DE2 /* Info.plist */,
+			);
+			path = SOAPTests;
+			sourceTree = "<group>";
+		};
+		2229CC051E654516007E0DE2 /* SOAPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2229CC061E654516007E0DE2 /* SOAPUITests.m */,
+				2229CC081E654516007E0DE2 /* Info.plist */,
+			);
+			path = SOAPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2229CBDD1E654515007E0DE2 /* SOAP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2229CC0B1E654516007E0DE2 /* Build configuration list for PBXNativeTarget "SOAP" */;
+			buildPhases = (
+				2229CBDA1E654515007E0DE2 /* Sources */,
+				2229CBDB1E654515007E0DE2 /* Frameworks */,
+				2229CBDC1E654515007E0DE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SOAP;
+			productName = SOAP;
+			productReference = 2229CBDE1E654516007E0DE2 /* SOAP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2229CBF61E654516007E0DE2 /* SOAPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2229CC0E1E654516007E0DE2 /* Build configuration list for PBXNativeTarget "SOAPTests" */;
+			buildPhases = (
+				2229CBF31E654516007E0DE2 /* Sources */,
+				2229CBF41E654516007E0DE2 /* Frameworks */,
+				2229CBF51E654516007E0DE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2229CBF91E654516007E0DE2 /* PBXTargetDependency */,
+			);
+			name = SOAPTests;
+			productName = SOAPTests;
+			productReference = 2229CBF71E654516007E0DE2 /* SOAPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2229CC011E654516007E0DE2 /* SOAPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2229CC111E654516007E0DE2 /* Build configuration list for PBXNativeTarget "SOAPUITests" */;
+			buildPhases = (
+				2229CBFE1E654516007E0DE2 /* Sources */,
+				2229CBFF1E654516007E0DE2 /* Frameworks */,
+				2229CC001E654516007E0DE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2229CC041E654516007E0DE2 /* PBXTargetDependency */,
+			);
+			name = SOAPUITests;
+			productName = SOAPUITests;
+			productReference = 2229CC021E654516007E0DE2 /* SOAPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2229CBD61E654515007E0DE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = king;
+				TargetAttributes = {
+					2229CBDD1E654515007E0DE2 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					2229CBF61E654516007E0DE2 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2229CBDD1E654515007E0DE2;
+					};
+					2229CC011E654516007E0DE2 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2229CBDD1E654515007E0DE2;
+					};
+				};
+			};
+			buildConfigurationList = 2229CBD91E654515007E0DE2 /* Build configuration list for PBXProject "SOAP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2229CBD51E654515007E0DE2;
+			productRefGroup = 2229CBDF1E654516007E0DE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2229CBDD1E654515007E0DE2 /* SOAP */,
+				2229CBF61E654516007E0DE2 /* SOAPTests */,
+				2229CC011E654516007E0DE2 /* SOAPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2229CBDC1E654515007E0DE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2229CBF11E654516007E0DE2 /* LaunchScreen.storyboard in Resources */,
+				2229CBEE1E654516007E0DE2 /* Assets.xcassets in Resources */,
+				2229CBEC1E654516007E0DE2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2229CBF51E654516007E0DE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2229CC001E654516007E0DE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2229CBDA1E654515007E0DE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2229CBE91E654516007E0DE2 /* ViewController.m in Sources */,
+				2229CBE61E654516007E0DE2 /* AppDelegate.m in Sources */,
+				2229CBE31E654516007E0DE2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2229CBF31E654516007E0DE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2229CBFC1E654516007E0DE2 /* SOAPTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2229CBFE1E654516007E0DE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2229CC071E654516007E0DE2 /* SOAPUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2229CBF91E654516007E0DE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2229CBDD1E654515007E0DE2 /* SOAP */;
+			targetProxy = 2229CBF81E654516007E0DE2 /* PBXContainerItemProxy */;
+		};
+		2229CC041E654516007E0DE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2229CBDD1E654515007E0DE2 /* SOAP */;
+			targetProxy = 2229CC031E654516007E0DE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2229CBEA1E654516007E0DE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2229CBEB1E654516007E0DE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2229CBEF1E654516007E0DE2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2229CBF01E654516007E0DE2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2229CC091E654516007E0DE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2229CC0A1E654516007E0DE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2229CC0C1E654516007E0DE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SOAP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = king.SOAP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2229CC0D1E654516007E0DE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SOAP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = king.SOAP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2229CC0F1E654516007E0DE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SOAPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = king.SOAPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SOAP.app/SOAP";
+			};
+			name = Debug;
+		};
+		2229CC101E654516007E0DE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SOAPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = king.SOAPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SOAP.app/SOAP";
+			};
+			name = Release;
+		};
+		2229CC121E654516007E0DE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SOAPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = king.SOAPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SOAP;
+			};
+			name = Debug;
+		};
+		2229CC131E654516007E0DE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SOAPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = king.SOAPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SOAP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2229CBD91E654515007E0DE2 /* Build configuration list for PBXProject "SOAP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2229CC091E654516007E0DE2 /* Debug */,
+				2229CC0A1E654516007E0DE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2229CC0B1E654516007E0DE2 /* Build configuration list for PBXNativeTarget "SOAP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2229CC0C1E654516007E0DE2 /* Debug */,
+				2229CC0D1E654516007E0DE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2229CC0E1E654516007E0DE2 /* Build configuration list for PBXNativeTarget "SOAPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2229CC0F1E654516007E0DE2 /* Debug */,
+				2229CC101E654516007E0DE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2229CC111E654516007E0DE2 /* Build configuration list for PBXNativeTarget "SOAPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2229CC121E654516007E0DE2 /* Debug */,
+				2229CC131E654516007E0DE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2229CBD61E654515007E0DE2 /* Project object */;
+}
